@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.eot");
+    src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Vazir.woff2") format("woff2"),
+        url("../fonts/Vazir.woff") format("woff"),
+        url("../fonts/Vazir.ttf") format("truetype");
+}
+
+html,
+head,
+body {
+    font-family: 'Vazir';
+    line-height: 1.7em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.icon {
+    display: inline-block;
+    background-color: #ebeafb;
+    color: #0d6efd;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.card-primary {
+    background: #1b2a4e;
+    color: white !important;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+footer h6 {
+    border-bottom: 3px solid;
+}
+
+footer ul li {
+    padding-bottom: 6px;
+}
